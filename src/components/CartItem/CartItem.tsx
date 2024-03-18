@@ -46,7 +46,9 @@ export const CartItem: FC<CartItemProps> = (props) => {
               width="20px"
               height="20px"
             >
-              <use href="/images/icons.svg#icon-minus"></use>
+              <use
+                href={import.meta.env.BASE_URL + "/images/icons.svg#icon-minus"}
+              ></use>
             </svg>
           </button>
           <p className={styles.cart__count}>{props.count}</p>
@@ -56,7 +58,9 @@ export const CartItem: FC<CartItemProps> = (props) => {
               width="20px"
               height="20px"
             >
-              <use href="/images/icons.svg#icon-plus"></use>
+              <use
+                href={import.meta.env.BASE_URL + "/images/icons.svg#icon-plus"}
+              ></use>
             </svg>
           </button>
           <button
@@ -68,7 +72,9 @@ export const CartItem: FC<CartItemProps> = (props) => {
               width="24px"
               height="24px"
             >
-              <use href="/images/icons.svg#icon-close"></use>
+              <use
+                href={import.meta.env.BASE_URL + "/images/icons.svg#icon-close"}
+              ></use>
             </svg>
           </button>
         </div>

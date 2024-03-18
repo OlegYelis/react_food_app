@@ -10,7 +10,9 @@ export const Search = forwardRef<HTMLInputElement, SearchProps>(function Input(
   return (
     <div className={styles["input-wrapper"]}>
       <svg className={styles.seacrh__icon} width="20px" height="20px">
-        <use href="/images/icons.svg#icon-search"></use>
+        <use
+          href={import.meta.env.BASE_URL + "/images/icons.svg#icon-search"}
+        ></use>
       </svg>
       <input
         {...props}

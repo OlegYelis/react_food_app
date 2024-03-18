@@ -10,7 +10,7 @@ export const Success = () => {
     <div className={styles.success}>
       <img
         className={styles.success__img}
-        src="../images/auth_logo.webp"
+        src={import.meta.env.BASE_URL + "/images/auth_logo.webp"}
         alt="Success order"
       />
       <p className={styles.success__txt}>

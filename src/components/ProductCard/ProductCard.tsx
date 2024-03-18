@@ -31,13 +31,19 @@ export const ProductCard: FC<ProductCardProps> = (props) => {
         </p>
         <Button className={styles.addToCart} onClick={addProductHandler}>
           <svg className={styles.addToCart__icon} width="20px" height="20px">
-            <use href="/images/icons.svg#icon-add_to_cart"></use>
+            <use
+              href={
+                import.meta.env.BASE_URL + "/images/icons.svg#icon-add_to_cart"
+              }
+            ></use>
           </svg>
         </Button>
         <p className={styles.rating}>
           {props.rating}&nbsp;
           <svg className={styles.rating__icon} width="15px" height="15px">
-            <use href="/images/icons.svg#icon-star"></use>
+            <use
+              href={import.meta.env.BASE_URL + "/images/icons.svg#icon-star"}
+            ></use>
           </svg>
         </p>
       </div>

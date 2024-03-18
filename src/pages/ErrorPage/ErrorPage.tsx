@@ -10,7 +10,7 @@ export const ErrorPage = () => {
     <div className={styles.error}>
       <img
         className={styles.error__img}
-        src="../images/auth_logo.webp"
+        src={import.meta.env.BASE_URL + "/images/auth_logo.webp"}
         alt="logo"
         width="400px"
       />
