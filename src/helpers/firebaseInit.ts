@@ -3,7 +3,7 @@ import { getDatabase } from "firebase/database";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBput26EGM8krEG0vV6qTanwUo2Juqg6CA",
+  apiKey: import.meta.env.VITE_API_KEY,
   authDomain: "food-app-5204e.firebaseapp.com",
   databaseURL:
     "https://food-app-5204e-default-rtdb.europe-west1.firebasedatabase.app",
