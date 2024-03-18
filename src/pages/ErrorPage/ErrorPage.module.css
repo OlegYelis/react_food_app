@@ -1,0 +1,25 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  padding: 5%;
+}
+
+.error__img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.error__txt {
+  color: var(--primary-text-color);
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 30px;
+  text-align: center;
+}

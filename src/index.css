@@ -1,0 +1,51 @@
+:root {
+  --accent-color: #fe724c;
+  --accent-hover-color: #e2552e;
+  --primary-dark-color: #242424;
+  --primary-text-color: #ffffff;
+  --secondary-text-color: #b1b1b1;
+  --separator-color: #d4d6e0;
+
+  --font-family: "Open Sans", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--primary-dark-color);
+  padding: 0;
+  margin: 0;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.068);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--accent-color);
+  border-radius: 20px;
+  border: 3px solid var(--accent-color);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}

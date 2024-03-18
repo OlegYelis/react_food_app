@@ -1,0 +1,7 @@
+.headling {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%;
+  color: var(--primary-text-color);
+}

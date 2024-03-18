@@ -1,0 +1,21 @@
+.ingredients {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.ingredients__title {
+  color: var(--primary-text-color);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.ingredients__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
