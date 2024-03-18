@@ -13,4 +13,5 @@ export default defineConfig({
       enforce: "pre", // Вказуємо принудний порядок виконання плагіна
     },
   ],
+  base: "/react_food_app",
 });

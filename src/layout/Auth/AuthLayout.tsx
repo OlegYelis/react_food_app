@@ -6,7 +6,7 @@ export const AuthLayout = () => {
   return (
     <div className={styles.layout}>
       <div className={styles.logo}>
-        <img src="/images/auth_logo.webp" alt="Logo" width={"400px"} />
+        <img src="../images/auth_logo.webp" alt="Logo" width={"400px"} />
       </div>
       <div className={styles.content}>
         <Outlet />

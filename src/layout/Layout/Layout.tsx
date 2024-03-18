@@ -48,7 +48,7 @@ export const Layout = () => {
         <div className={styles.user}>
           <img
             className={styles.user__avatar}
-            src="/images/user_avatar.webp"
+            src="../images/user_avatar.webp"
             alt="user"
             width="90px"
           />
@@ -66,7 +66,7 @@ export const Layout = () => {
             }
           >
             <svg className={styles.link__icon} width="23px" height="23px">
-              <use href="/images/icons.svg#icon-text-document"></use>
+              <use href="../images/icons.svg#icon-text-document"></use>
             </svg>
             Menu
           </NavLink>
@@ -77,7 +77,7 @@ export const Layout = () => {
             }
           >
             <svg className={styles.link__icon} width="23px" height="23px">
-              <use href="/images/icons.svg#icon-shopping-basket"></use>
+              <use href="../images/icons.svg#icon-shopping-basket"></use>
             </svg>
             Cart
             <span className={styles["cart-count"]}>
@@ -88,7 +88,7 @@ export const Layout = () => {
 
         <Button className={styles.exit} onClick={logOutHandler}>
           <svg className={styles.exit__icon} width="20px" height="20px">
-            <use href="/images/icons.svg#icon-log-out"></use>
+            <use href="../images/icons.svg#icon-log-out"></use>
           </svg>
           Exit
         </Button>

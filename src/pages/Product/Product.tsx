@@ -42,7 +42,7 @@ function Product() {
                 onClick={() => dispatch(cartActions.add(data.id))}
               >
                 <svg className={styles.btn__icon} width="23px" height="23px">
-                  <use href="/images/icons.svg#icon-shopping-basket"></use>
+                  <use href="../images/icons.svg#icon-shopping-basket"></use>
                 </svg>
                 Add to Cart
               </Button>
@@ -62,7 +62,7 @@ function Product() {
                     width="15px"
                     height="15px"
                   >
-                    <use href="/images/icons.svg#icon-star"></use>
+                    <use href="../images/icons.svg#icon-star"></use>
                   </svg>
                 </p>
               </div>
